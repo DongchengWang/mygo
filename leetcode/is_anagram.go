@@ -1,5 +1,6 @@
 package leetcode
 
+// lc242
 func isAnagram(s string, t string) bool {
 	count := [26]int{}
 	for _, val := range s {
